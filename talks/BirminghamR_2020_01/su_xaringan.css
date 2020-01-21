@@ -1,0 +1,103 @@
+body {
+  font-family: "Segoe UI";
+}
+
+.suyellow {
+  background-color: #f9bf07;
+  color: #2c2825;
+}
+
+.hljs-github {
+  /*background-color: #f9bf07;
+  */
+  color: #2c2825;
+}
+
+.nobullet ul li {
+  list-style-type: none;
+}
+
+.icon img {
+  height: 1em;
+}
+
+.inverse {
+  background-color: #2c2825;
+  color: #f9bf07;
+}
+
+a {
+  color: #5881c1;
+}
+
+.remark-slide .suyellow tbody tr:nth-child(odd) {
+  background-color: #fce59b;
+}
+
+.remark-slide .inverse tr:nth-child(even) {
+  background-color: #4f5458;
+}
+
+.remark-slide .inverse thead,
+.remark-slide .inverse tfoot,
+.remark-slide .inverse tr:nth-child(odd) {
+  background-color: #333739;
+}
+
+.inverse h1,
+.inverse h2,
+.inverse h3,
+.inverse h4,
+.inverse h5,
+.inverse h6 {
+  color: #f9bf07;
+}
+
+.title-slide {
+  background-color: #f9bf07;
+  text-shadow: none;
+  font-family: "Segoe UI";
+  padding-top: 30%;
+  
+  background-image: url("tsu_logo_black_screen_transparent.png");
+  background-repeat: no-repeat;
+  background-position: top 2em right 2em;
+  background-size: 15%;
+  
+  /* 
+  
+  background:
+		linear-gradient(90deg, #f9bf07 21px, transparent 1%) center,
+		linear-gradient(#f9bf07 21px, transparent 1%) center,
+		#2c2825;
+	background-size: 22px 22px;
+	
+	*/
+}
+
+.remark-slide h1 { font-size: 1.75em; }
+.remark-slide h2 { font-size: 1.50em; }
+.remark-slide h3 { font-size: 1.25em; }
+.remark-slide h4 { font-size: 1.10em; }
+.remark-slide h5, h6 { font-size: 1.10em ; }
+
+.title-slide h1,
+.title-slide h2,
+.title-slide h3,
+.title-slide h4,
+.title-slide h5,
+.title-slide h6 {
+  color: #2c2825;
+  text-align: left;
+  font-size: 1em;
+  font-weight: normal;
+}
+
+.title-slide h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.title-slide .remark-slide-number {
+  display: none;
+}
